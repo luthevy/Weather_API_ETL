@@ -6,19 +6,22 @@
 ## Requirements
 _____________
 
-[x] Python --version 3.7 or above to run the project 
-    - Download Python at [https://www.python.org/downloads/](https://www.python.org/downloads/)
+[x] Python --version 3.7 or above to run the project
+
+- Download Python at [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
 [x] Python libraries:
-    - from asyncio.windows_events import NULL
-    - import sqlite3 (included in the standard library since Python 2.5).
-    - import schedule 
-    - import requests
-    - import json (built-in module)
+
+- from asyncio.windows_events import NULL
+- import sqlite3 (included in the standard library since Python 2.5).
+- import schedule
+- import requests
+- import json (built-in module)
 
 [x] Environment: Visual Studio Code, with listed extensions:
-    - Python (to run Python source)
-    - SQLite Viewer (to view SQLite tables)
+
+- Python (to run Python source)
+- SQLite Viewer (to view SQLite tables)
 
 [x] Project Package Management: Poetry
 _____________
