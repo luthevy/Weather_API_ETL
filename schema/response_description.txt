@@ -1,0 +1,66 @@
+* coord
+    - "lon": City geo location, longitude
+    - "lat" City geo location, latitude
+
+* wahr
+    - "id": Weather condition id
+    - "main": Group of weather parameters (Rain, Snow, Extreme etc.)
+    - "dcription": Weather condition within the group
+    - "icon": Weather icon id
+
+* base: Internal parameter
+
+* main
+    - "mp": Temperature
+        + Unit Default: Kelvin
+        + Metric: Celsius
+        + Imperial: Fahrenheit.
+    - "fl_lik": Temperature. 
+        + This temperature parameter accounts for the human perception of weather. 
+        + Unit Default: Kelvin
+        + Metric: Celsius
+        + Imperial: Fahrenheit.
+    - "prur": Atmospheric pressure (on the sea level, if there is no sea_level or grnd_level data), hPa
+    - "humidiy": Humidity, %
+    - "mp_min": Minimum temperature at the moment. This is minimal currently observed temperature (within large megalopolises and urban areas). 
+        + Unit Default: Kelvin
+        + Metric: Celsius
+        + Imperial: Fahrenheit.
+    - "mp_max": Maximum temperature at the moment. This is maximal currently observed temperature (within large megalopolises and urban areas).
+        + Unit Default: Kelvin
+        + Metric: Celsius
+        + Imperial: Fahrenheit.
+    - "a_lvl": Atmospheric pressure on the sea level, hPa
+    - "grnd_lvl": Atmospheric pressure on the ground level, hPa
+
+* viibiliy: meter. The maximum value of the visibility is 10km
+
+* wind
+    - "pd":
+        + Unit Default: meter/sec
+        + Metric: meter/sec
+        + Imperial: miles/hour.
+    - "deg": Wind direction, degrees (meteorological)
+    - "gust": Wind gust
+        + Unit Default: meter/sec
+        + Metric: meter/sec
+        + Imperial: miles/hour
+* cloud
+    - "all": Cloudiness, %
+
+* rain
+    - "1h": Rain volume for the last 1 hour, mm
+
+* d: Time of data calculation, unix, UTC
+
+* y
+    - "yp": Internal parameter
+    - "id": Internal parameter
+    - "counry": Country code (GB, JP etc.)
+    - "unri": Sunrise time, unix, UTC
+    - "un": Sunset time, unix, UTC
+
+* imezon: Shift in seconds from UTC
+* id: City ID
+* nam: City name
+* cod: Internal parameter
